@@ -1,0 +1,68 @@
+.dashboardTitle{
+      background-color: blue;
+      color: white;
+      width: 100%;
+      top:0;
+      height: 20%;
+      
+}
+.ParentComponent{
+      /* This handles all the content on page besides title above. Split into two columns one for sidebar and the other for the individual components */
+      background-color: lightgrey;
+      display: grid;
+      grid-template-columns: 1fr 4fr ;
+      height: 1000px;
+      grid-gap: 20px;
+      
+}
+.InfoComponents{
+      /* Handles the content aside from Title and SideBar */
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      background-color:lightgrey;
+      grid-gap: 20px;
+      
+      
+}
+.sideBarComponent{
+      background-color: blueviolet;
+      color: black;
+      vertical-align: 50%;
+      font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "serif";
+      font-size: 18px;
+      letter-spacing: 1px;
+      word-spacing: 2px;
+      color: #000000;
+      font-weight: 700;
+      text-decoration: underline solid rgb(68, 68, 68);
+      font-style: normal;
+      font-variant: normal;
+      text-transform: none;
+}
+.reviewComponent{
+      background-color: lightslategray;
+      color: black;
+      font-size: larger;
+      
+
+}
+.ratingComponent{
+      background-color: lightslategray;
+      color:black;
+      font-size: larger;
+}
+
+.analysisComponent{
+      background-color: lightslategray;
+      color: black;
+      font-size: larger;
+
+}
+.visitorsComponent{
+      background-color: cornflowerblue;
+      color: brown;
+      grid-column-start: 1;
+      grid-column-end: 4;
+      font-size: largest;
+}
